@@ -103,10 +103,10 @@ View my notebook with detailed steps here: [3_growth_over_time.ipynb](project_co
 
 ### 💡 Insights
 
-- **Explosive growth from 2015–2019** — Both Movies and TV Shows saw rapid expansion as Netflix shifted from a DVD rental service to a global streaming giant and began heavily investing in original content.
-- **Movies consistently dominate** — Movies outnumber TV Shows every year, peaking at **1,400 titles added in 2019**
-- **TV Shows grew steadily** — TV Show additions plateaued around **600 titles per year** from 2019–2021, suggesting a deliberate cap on series investment relative to films
-- **Post-2019 decline** — Both content types drop after 2019, likely reflecting the impact of **COVID-19 production shutdowns** and a strategic shift toward quality over quantity.
+- Both Movies and TV Shows saw rapid expansion **from 2015 to 2019** as Netflix shifted from a DVD rental service to a global streaming giant and began heavily investing in original content.
+- Movies outnumber TV Shows every year, peaking at **1,400 titles added in 2019**,
+- TV show additions stabilized at around **600 titles per year** from 2019 to 2021, suggesting a deliberate cap on investment in series relative to films.
+- Both content types drop after 2019, likely reflecting the impact of **COVID-19 production shutdowns** and a strategic shift toward quality over quantity.
 
 ## 3. What are Netflix's monthly content addition patterns?
 
@@ -139,10 +139,9 @@ View my notebook with detailed steps here: [4_monthly_addition_pattern.ipynb](pr
 
 ### 💡 Insights
 
-- **July is the peak month** — With 827 titles added, July sees the highest content additions, likely timed to capture summer viewing demand.
-- **December is the second highest** — 813 titles added in December aligns with holiday season viewing spikes and end-of-year content pushes.
-- **February and May are the slowest months** — With only 563 and 632 titles respectively, these months see significantly fewer additions, suggesting lower strategic priority.
-- **Overall additions are relatively consistent** — Outside of February and May, most months sit in the 728–770 range, indicating Netflix maintains a steady content pipeline year-round rather than relying heavily on seasonal bursts.
+- With **827 titles** added, July sees the highest content additions, likely timed to capture summer viewing demand.
+- With only **563 and 632 titles**, respectively, February and May see significantly fewer additions, suggesting a lower strategic priority.
+- Most months sit in the **728–770 range**, indicating Netflix maintains a steady content pipeline year-round rather than relying heavily on seasonal bursts.
 
 ## 4. Which countries produce the most Netflix content?
 
@@ -168,9 +167,9 @@ View my notebook with detailed steps here: [5_top_producing_country.ipynb](proje
 
 ### 💡 Insights
 
-- **The United States dominates by a wide margin** — The US produces nearly 3x more content than any other country, reflecting Netflix's origins and primary market.
-- **India is the second largest producer** — India's contribution is almost entirely film-driven, consistent with Bollywood's prolific output.
-- **Western countries skew toward Movies** — UK, Canada, France, Spain, Mexico, and Australia all show significantly more Movies than TV Shows.
+- The United States produces nearly 3x more content than any other country, reflecting Netflix's origins and primary market.
+- India's contribution is almost entirely film-driven, consistent with Bollywood's prolific output.
+- UK, Canada, France, Spain, Mexico, and Australia all show significantly more Movies than TV Shows.
 
 ## 5. What are the most popular genres on Netflix?
 
@@ -240,6 +239,30 @@ View my notebook with detailed steps here: [7_duration_analysis.ipynb](project_c
 
 ### 💡 Insights
 
-- **The sweet spot for movies is ~90–110 minutes** — The distribution peaks sharply around this range, with a median of 99 min and mean of 101 min, confirming Netflix favours standard feature-length films.
-- **Movie duration is right-skewed** — While most films cluster under 120 minutes, a long tail extends beyond 200 minutes, indicating a small number of epic or special-format titles.
-- **Most TV Shows run for just 1 season** — A striking 1,793 shows have only a single season, suggesting Netflix cancels or limits the majority of series after their debut.
+- The distribution peaks sharply around this range, with a **median of 99 min** and **mean of 101 min**, confirming Netflix favours standard feature-length films.
+- While most films cluster **under 120 minutes**, a long tail extends beyond 200 minutes, indicating a small number of epic or special-format titles.
+- A striking **1,793 shows** have only a single season, suggesting Netflix cancels or limits the majority of series after their debut.
+
+## 🧠 What I Learned
+
+Throughout this project, I deepened my understanding of Netflix's content strategy and enhanced my technical skills in Python, especially in data manipulation and visualization. Here are a few specific things I learned:
+
+- Advanced Python Usage: Utilizing libraries such as Pandas for data manipulation, Matplotlib and Seaborn for data visualization allowed me to handle a large, multi-dimensional dataset and produce clear, meaningful charts efficiently.
+- Data Cleaning Importance: I learned that thorough data cleaning and preparation are crucial before any analysis can be conducted. The Netflix dataset required handling missing values, parsing date fields, and exploding multi-value columns like `listed_in` and `country` to ensure the accuracy of every insight.
+- Content Strategy Thinking: The project emphasized how data can reveal a platform's strategic priorities. Analysing patterns across genre, country, duration, and release timing gave me a clearer picture of how Netflix positions its content library for a global audience.
+
+## 💡 Insights
+
+This project provided several key insights into Netflix's content strategy and global library composition:
+
+- International Content is Netflix's Backbone: The dominance of "International Movies" and "International TV Shows" as the top genres across both categories confirms that Netflix's growth strategy is fundamentally global, not US-centric — despite the US contributing the largest share of total titles.
+- Content Volume Peaked and Shifted: Netflix aggressively expanded its library between 2015 and 2019, peaking approximately 1,400 movies added in a single year, before pulling back post-2019, signalling a strategic shift from quantity-driven growth to a more selective, quality-focused content approach.
+- Single-Season Shows Dominate: With 66% of TV Shows running for just one season and movie runtimes clustering tightly around 90–110 minutes, Netflix clearly favours concise, self-contained content over long-running commitments, reducing production risk while maximising catalogue variety.
+
+## 🏁 Conclusion
+
+This exploration into Netflix's content library has been incredibly informative, revealing the strategic patterns and global priorities that shape one of the world's largest streaming platforms. The insights gained deepen my understanding of how data can tell a platform's story, from its explosive growth phase between 2015 and 2019, to its post-pandemic pivot toward quality over quantity.
+
+Analysing content across genre, geography, duration, release timing, and growth trends provided a well-rounded view of Netflix's evolving content strategy. 
+
+This project serves as a strong foundation for future explorations, including sentiment analysis of viewer reviews, predictive modelling of content success, and deeper regional breakdowns, and underscores the importance of continuous learning and curiosity in the data field.
