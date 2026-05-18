@@ -266,3 +266,29 @@ This exploration into Netflix's content library has been incredibly informative,
 Analysing content across genre, geography, duration, release timing, and growth trends provided a well-rounded view of Netflix's evolving content strategy. 
 
 This project serves as a strong foundation for future explorations, including sentiment analysis of viewer reviews, predictive modelling of content success, and deeper regional breakdowns, and underscores the importance of continuous learning and curiosity in the data field.
+
+## 📁 Project Structure
+
+```
+├── datasets/
+│   └── netflix_titles.csv                  
+│
+├── notebooks/
+│   ├── 1_clean_dataframe.ipynb
+|   ├── 2_movies_vs_shows.ipynb               
+│   ├── 3_content_growth_over_time.ipynb    
+│   ├── 4_monthly_addition_pattern.ipynb   
+│   ├── 5_top_producing_country.ipynb       
+│   ├── 6_genre_analysis.ipynb              
+│   └── 7_duration_analysis.ipynb           
+│
+├── resources/
+│   ├── growth_over_time.png               
+│   ├── monthly_addition_pattern.png        
+│   ├── top_producing_country.png           
+│   ├── genre_analysis.png                  
+│   └── duration_analysis.png              
+│              
+└── README.md
+```
+
